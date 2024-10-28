@@ -16,7 +16,7 @@ const MainPage = () => {
   return (
     <div className="flex items-center justify-center flex-col py-4">
       <h1 className="text-3xl font-bold mb-2">Tabel Perkalian</h1>
-      <form className="w-full lg:w-1/4 px-2 py-2 mx-2" onSubmit={submitAction}>
+      <form className="w-full xl:w-1/4 px-2 py-2 mx-2" onSubmit={submitAction}>
         <InputComponent label="Perkalian Sampai" name="length" type="number" />
         <InputComponent label="Batas Akhir" name="limit" type="number" />
         <button
